@@ -14,10 +14,8 @@ class Square extends Shape {
     public Square(double side) {
         super();
         this.side = side;
-        System.out.println("Площа квадрата = " + calculateArea());
-
     }
-    
+
     @Override
     public double calculateArea() {
         return side * side;
@@ -33,9 +31,7 @@ class Rectangle extends Shape {
         super();
         this.length = length;
         this.width = width;
-        System.out.println("Площа прямокутника = " + calculateArea());
     }
-
 
     @Override
     public double calculateArea() {
@@ -49,7 +45,6 @@ class Circle extends Shape {
     public Circle(double radius) {
         super();
         this.radius = radius;
-        System.out.println("Площа кола = " + calculateArea());
     }
 
     @Override
@@ -60,8 +55,16 @@ class Circle extends Shape {
 
 public class Main {
     public static void main(String[] args) {
-        Square square = new Square(5);
-        Rectangle rectangle = new Rectangle(4, 6);
-        Circle circle = new Circle(3);
+        Shape square = new Square(5);
+        double squareSquare = square.calculateArea();
+        System.out.println("Площа квадрата = " + squareSquare);
+
+        Shape rectangle = new Rectangle(4, 6);
+        double rectangleSquare = rectangle.calculateArea();
+        System.out.println("Площа прямокутника = " + rectangleSquare);
+
+        Shape circle = new Circle(3);
+        double circleSquare = circle.calculateArea();
+        System.out.println("Площа кола = " + circleSquare);
     }
 }
