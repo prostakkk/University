@@ -17,7 +17,8 @@ class Square extends Shape {
         System.out.println("Площа квадрата = " + calculateArea());
 
     }
-
+    
+    @Override
     public double calculateArea() {
         return side * side;
     }
