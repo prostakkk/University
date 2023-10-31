@@ -1,5 +1,5 @@
+// Абстрактна фабрика
 package study;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
