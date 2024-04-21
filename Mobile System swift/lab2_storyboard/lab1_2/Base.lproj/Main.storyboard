@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lab1_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myphoto" translatesAutoresizingMaskIntoConstraints="NO" id="P3q-kA-Y7d">
+                                <rect key="frame" x="107" y="144" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="8df-qK-BYB"/>
+                                    <constraint firstAttribute="width" constant="200" id="b51-W7-B0u"/>
+                                </constraints>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="thin"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eA-B2-DeK">
+                                <rect key="frame" x="67.5" y="295" width="279" height="47"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="7q6-xC-uVf"/>
+                                    <constraint firstAttribute="height" constant="47" id="c97-ey-7Td"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Ільницький">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="LucidaGrande-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="Avenir-Black"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Віталій">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="20" name="LucidaGrande-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9O2-tI-9y4">
+                                <rect key="frame" x="72" y="329" width="274" height="35"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="6ww-hb-IQ0"/>
+                                    <constraint firstAttribute="width" constant="274" id="Lbf-MM-Jqf"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="студент">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="22" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="It`s just for fun. Second task btw. Good luck have fun. London is the capital of Great Britain." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Bcv-ng-xSU">
+                                <rect key="frame" x="67.5" y="372" width="279" height="137"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="137" id="0El-qu-Ruu"/>
+                                    <constraint firstAttribute="width" constant="279" id="nAz-Gz-RPK"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bcv-ng-xSU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4p9-oY-yOU"/>
+                            <constraint firstItem="9O2-tI-9y4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="2" id="6Sv-gF-R71"/>
+                            <constraint firstItem="P3q-kA-Y7d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="C29-MA-G2x"/>
+                            <constraint firstItem="Bcv-ng-xSU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="328" id="Cms-zt-UgO"/>
+                            <constraint firstItem="P3q-kA-Y7d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="RL1-43-7Es">
+                                <variation key="heightClass=compact-widthClass=compact" constant="50"/>
+                                <variation key="heightClass=compact-widthClass=regular" constant="50"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="100"/>
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="9O2-tI-9y4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="285" id="fZp-eC-bxK"/>
+                            <constraint firstItem="3eA-B2-DeK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="iKC-Td-lV4"/>
+                            <constraint firstItem="3eA-B2-DeK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wh3-Ut-qlg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="129.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="myphoto" width="640" height="640"/>
+    </resources>
+</document>
